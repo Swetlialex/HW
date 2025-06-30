@@ -13,6 +13,6 @@ sessions_astronomical = sessions / astronomical_hour_minutes
 # Брой сесии
 sessions_total = academic_hours_total / session_length
 
-#Брой астрономически часове
+# Брой астрономически часове
 astronomical_hours_total = sessions_total * sessions_astronomical
 print(f"Total duration in astronomical hours: {astronomical_hours_total:.2f}")
