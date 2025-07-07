@@ -184,17 +184,18 @@
 ### Your code here
 
 # word = input('Enter a word : ')
-# small_word = word.lower()
-# len_word = len(small_word)
-# len_half_word = round(len_word/2)
-# half1 = small_word[0:len_half_word-1]
-# half2 = small_word[-len_half_word+1:]
-# half2 = half2[::-1]
-# if half1 == half2:
+# small_word = word.lower() # стринг от малки букви
+
+# small_word_lst = list(small_word) # списък от стринга - оригинален
+
+# small_word_lst_rev = list(small_word) # списък от стринга, който ще обърнем 
+# small_word_lst_rev.reverse() # обръщане на списъка
+
+# # проверка дали е палиндром
+# if small_word_lst == small_word_lst_rev:
 #     print(f'The word {word} is a palindrome')
 # else:
 #     print(f'The word {word} is not palindrome')
-
 
 ### EXPECTED OUTPUT:
 # Enter a word : Racecar
