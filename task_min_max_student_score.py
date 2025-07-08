@@ -23,7 +23,7 @@ for key, value in student_score.items():
     if value == max_value:
         print(f'{key} - {value}')
         
-# отпечатвам max и min  
+# отпечатвам min  
 for key, value in student_score.items():
     if value ==min_value:
         print(f'{key} - {value}')
