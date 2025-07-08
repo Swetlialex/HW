@@ -4,6 +4,7 @@ student_score = {
                 'Maria' :5.50,
                 'Georgy':5.00
                 }
+# print(student_score)
 
 for key,value in student_score.items():
     if value >=5.0:
