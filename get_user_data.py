@@ -8,7 +8,7 @@ def get_user_data():
         user_name = input('Въведете Вашето име:')
         if len(user_name) <= 2:
             print('Некоректни данни! Въведи име с повече от 2 символа: ')
-            user_name = input('Вашето име: ')
+            
         else: break
 
     
@@ -16,7 +16,7 @@ def get_user_data():
         user_weight = float(input("Тегло в килограми:")) #тегло в килограми 
         if user_weight<5 or user_weight>300:
             print('Некоректни данни! Въведи тегло в диапазона [5;300]: ')
-            user_weight = float(input('Вашето тегло: '))
+           
         else: break
 
     
@@ -24,7 +24,7 @@ def get_user_data():
         user_height = float(input("Височина в сантиметри: ")) # височина в сантиметри
         if user_height<50 or user_height>250:
             print('Некоректни данни! Въведи ръст в диапазона [50;250]: ')
-            user_height = float(input('Вашият ръст: '))
+           
         else: 
             break
 
