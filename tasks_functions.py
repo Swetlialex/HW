@@ -153,7 +153,7 @@ Write a lambda function 'is_palindrome' that checks if a given string is a palin
 ### YOUR CODE HERE
 # def is_palindrome(my_str):
 #     reverse_string = lambda my_str: my_str[::-1] # обръща стринга
-#     if my_str == reverse_string(my_str): # сравнява оригинлния стринг с обърнатия стринг
+#     if my_str == reverse_string(my_str): # сравнява оригиналния стринг с обърнатия стринг
 #         answers = True # ако е палиндром 
 #     else: 
 #         answers = False # ако не е палиндром
