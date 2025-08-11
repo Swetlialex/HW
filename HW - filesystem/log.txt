@@ -1,0 +1,4 @@
+INFO - Starting process
+DEBUG - Debugging the code
+ERROR - Something went wrong
+DEBUG - Another debug message

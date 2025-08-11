@@ -1,0 +1,2 @@
+INFO - Starting process
+ERROR - Something went wrong
